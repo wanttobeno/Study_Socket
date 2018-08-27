@@ -36,3 +36,6 @@ Etag: 02132b8fec79c49b795f7726ed238b59
 
 {"reason":"error key","result":null,"error_code":10001}
 ```
+
+#### 编码问题
+在发送的HTTP数据包含中文时，可能需要转换为utf-8编码；包含空格时，使用URL编码处理下。
